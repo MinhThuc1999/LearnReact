@@ -1,0 +1,28 @@
+
+
+.block{
+    padding-top: 0px;
+    padding-left: 30px;
+    color: #fff;
+    min-height: 310px;
+}
+
+.icon{
+    font-size: 50px;
+    margin-bottom: 100px;
+    padding-top: 15px;
+}
+
+.media{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.total {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.unit{
+    font-size: 20px;
+}

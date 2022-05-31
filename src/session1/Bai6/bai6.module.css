@@ -1,0 +1,42 @@
+.container{
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    text-align: center;
+    padding: 7px 10px;
+    margin-right: 10px;
+}
+
+.img{
+    max-width: 240px;
+    height: 280px;
+}
+.namePro{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+ .modifies{
+     font-size: 14px;
+     color:rgba(128, 128, 128, 0.514) ;
+     margin-bottom: 20px;
+ }
+
+ .price{
+     font-size: 20px;
+     font-weight: 700;
+
+ }
+
+ .buttonCart{
+     display: inline-block;
+     width: 120px;
+     border-radius: 5px;
+     background-color: #4EC67F;
+     padding: 12px 8px;
+     color: #FFFFFF;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     border: none;
+}

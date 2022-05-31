@@ -1,0 +1,43 @@
+.container{
+    margin-right: 10px;
+}
+.titleProduct{
+border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+position: relative;
+}
+.sale{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F24604;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3px;
+}
+
+.priceSale{
+    font-size: 17px;
+    color: green;
+
+}
+.productName{
+    color: #307CD0    ;
+}
+.starYelow{
+    color: #FAB800;
+}
+.sold{
+    color: rgba(128, 128, 128, 0.473);
+    font-size: 14px;
+}
+.soldStatus{
+    display: flex;
+    height: 10px;
+}

@@ -1,0 +1,15 @@
+ .container{
+     display: flex;
+     text-align: center;
+ }
+
+
+ .text{
+     font-weight: 600;
+ }
+
+ .total{
+     color: #59CCDF;
+     font-size: 30px;
+     margin-top: 0;
+ }
