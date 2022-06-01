@@ -1,0 +1,9 @@
+
+.control{
+    display: flex;
+    justify-content: space-around;
+}
+
+.previous, .next{
+    cursor: pointer;
+}

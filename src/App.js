@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 
 import Header from './components/Header';
+import SlideImage from './session2/Example/SlideImage';
 function Block(props){
   return(
     <div>
