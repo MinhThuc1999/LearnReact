@@ -1,9 +1,39 @@
-
+img{
+    max-width: 100% !important;
+}
 .control{
     display: flex;
-    justify-content: space-around;
+ position: absolute;
+ top: 25%;
+ width: 100%;
 }
 
 .previous, .next{
     cursor: pointer;
+    font-size: 30px;
 }
+.previous{
+    position: absolute;
+    left: 10px;
+}
+
+.next{
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+
+}
+.img_bot{
+    display: flex;
+}
+.img_mini{
+   
+    height: 100px ;
+    cursor: pointer;
+    
+}
+.img_mini:visited{
+    border: 1px solid grey;
+}
+
+

@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    width: 700px;
+    min-height: 600px;
+    margin: 50px auto;
+}
+
+.tab_container{
+    display: flex;
+    background-color: #f5f5f5;
+
+
+}
+.tab{
+        width: 100%;
+        cursor: pointer;    
+        height: 53px;
+        margin: 0;
+}
+.tab_active{
+    background-color: aqua;
+}
+

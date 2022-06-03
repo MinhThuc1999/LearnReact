@@ -1,0 +1,19 @@
+.container{
+    max-width: 700px;
+    height: auto;
+    margin: 30px auto;
+}
+
+
+.button_tab{
+    width: 100px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
