@@ -24,34 +24,36 @@ function Tabs({ tabs = defaultTab }) {
   const [selectedIndex, setSelectedIndex] = React.useState(0);
 
   return (
-    <div className={styles.container}>
-      <h2>BUTTON TABS</h2>
-      <div>
-        {tabs.map((item, index) => {
-          const isActive = index === selectedIndex;
-          return (
-            <button
-              onClick={() => {
-                setSelectedIndex(index);
-              }}
-              style={{
-                backgroundColor: isActive ? "green" : "#f5f5f5",
-                color: isActive ? "white" : "grey",
-              }}
-              className={styles.button_tab}
-            >
-              {item.title}
-            </button>
-          );
-        })}
-      </div>
-      <div>
-        {tabs.map((item, index) => {
-          if (index === selectedIndex) {
-            return <div>{item.content}</div>;
-          }
-          return null;
-        })}
+    <div>
+      <div className={styles.container} style={{ textAlign: "center" }}>
+        <h2>BUTTON TABS</h2>
+        <div className={styles.tab}>
+          {tabs.map((item, index) => {
+            const isActive = index === selectedIndex;
+            return (
+              <button
+                onClick={() => {
+                  setSelectedIndex(index);
+                }}
+                style={{
+                  backgroundColor: isActive ? "green" : "#f5f5f5",
+                  color: isActive ? "white" : "grey",
+                }}
+                className={styles.button_tab}
+              >
+                {item.title}
+              </button>
+            );
+          })}
+        </div>
+        <div>
+          {tabs.map((item, index) => {
+            if (index === selectedIndex) {
+              return <div>{item.content}</div>;
+            }
+            return null;
+          })}
+        </div>
       </div>
     </div>
   );
